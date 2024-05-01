@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "callingstone";
+    src: url(fuentes/callingstone-2okye.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    font-family: "callingstone";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 90px;
+    background-color: rgba(247, 169, 139, 0.73);
+}
+
+header{
+    margin: auto;
+    background-color: rgba(247, 169, 139, 0.73);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+
+.menu{
+    
+    font-family: "callingstone";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+}
+.menu a{
+    color:black;
+}
+.menu >li{
+    float: left;
+    margin: 1.2rem;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover>ul{
+    display: block;
+}
+.imagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.imagen {
+    width: 625px;
+    height: 600px;
+}
+.contenedor_noticias{
+    font-family: "callingstone";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 35px;
+}
+.noticia{
+    border: solid black 7px;
+    border-radius: 25px ;
+    width: 450px;
+    margin: 35px;
+}
+.noticia:hover{
+    background-color: rgba(247, 169, 139, 0.73);
+    transition: 0.5s;
+}
+.img_noticia{
+    width: 400px;
+    height: 400px;
+    margin-left: 175px;
+    border: solid black 7px;
+    border-radius: 25px ;
+}

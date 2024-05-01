@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "callingstone";
+    src: url(FONT/Callingstone.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    margin: auto;
+    background-color: rgba(247, 169, 139, 0.73);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    
+}
+
+
+.menu{
+    
+    font-family: "callignstone";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+}
+
+.menu a{
+    color:gray;
+}
+.menu >li{
+    float: left;
+    margin: 1.2rem;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover>ul{
+    display: block;
+}

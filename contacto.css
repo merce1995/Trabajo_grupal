@@ -1,0 +1,71 @@
+@font-face{
+    font-family: callingstone;
+    src: url(fuentes/callingstone/Callingstone\ -\ Personal\ Use\ Only.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+header{
+    margin: auto;
+    background-color: rgba(247, 169, 139, 0.73);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    
+}
+
+
+.menu{
+    
+    font-family: callingstone;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+}
+.menu a{
+    color:gray;
+}
+.menu >li{
+    float: left;
+    margin: 1.2rem;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover>ul{
+    display: block;
+}
+h1{
+    padding-left: 35%;
+}
+.tabla1{
+    
+    border: 0%;
+    margin-left: 35%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid coral;
+    background-color: floralwhite;
+
+    
+}
+.contacta{
+    padding: 10%;
+}
+
